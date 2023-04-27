@@ -89,12 +89,12 @@ $a=100;
 $b=140;
 echo ($a > $b)?"+":"-";
 echo $a<=>$b;
-
+echo "<hr>";
 
 // Casting vars
 $doubleAge = (double)$intvar;
 $strvar = strval($intvar);
-echo $strvar . PHP_EOL;
+echo $strvar;
 echo "<hr>";
 // hash table
 $hashTable = array(
