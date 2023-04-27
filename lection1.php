@@ -79,7 +79,17 @@ echo $$c . ' ' . $b;
 
 echo "<hr>";
 // Comparing
-$isEqual = $intvar == $doublevar;
+$a=100;
+$b="100";
+echo ($a === $b)?"+":"-";
+echo ($a != $b)?"+":"-";
+echo ($a !== $b)?"+":"-";
+
+$a=100;
+$b=140;
+echo ($a > $b)?"+":"-";
+echo $a<=>$b;
+
 
 // Casting vars
 $doubleAge = (double)$intvar;
